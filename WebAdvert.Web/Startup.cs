@@ -35,6 +35,7 @@ namespace WebAdvert.Web
                     RequireNonAlphanumeric = false
                 };
             });
+            services.ConfigureApplicationCookie(options => { options.LoginPath = "Accounts/Login"; });
             services.AddControllersWithViews();
         }
 

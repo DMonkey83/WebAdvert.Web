@@ -11,6 +11,7 @@
       <e p="Models" t="Include">
         <e p="Accounts" t="Include">
           <e p="ConfirmModel.cs" t="Include" />
+          <e p="LoginModel.cs" t="Include" />
           <e p="SignupModel.cs" t="Include" />
         </e>
         <e p="ErrorViewModel.cs" t="Include" />
@@ -23,6 +24,7 @@
       <e p="Views" t="Include">
         <e p="Accounts" t="Include">
           <e p="Confirm.cshtml" t="Include" />
+          <e p="Login.cshtml" t="Include" />
           <e p="Signup.cshtml" t="Include" />
         </e>
         <e p="Home" t="Include">
@@ -48,6 +50,7 @@
       <e p="mono_crash.mem.136176.1.blob" t="Include" />
       <e p="mono_crash.mem.138254.1.blob" t="Include" />
       <e p="mono_crash.mem.140717.1.blob" t="Include" />
+      <e p="mono_crash.mem.50771.1.blob" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
